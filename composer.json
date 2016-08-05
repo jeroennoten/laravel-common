@@ -1,0 +1,23 @@
+{
+    "name": "jeroennoten/laravel-common",
+    "description": "Laravel Common Things",
+    "keywords": ["laravel", "pages"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeroen Noten",
+            "email": "jeroennoten@me.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JeroenNoten\\LaravelCommon\\": "src/"
+        }
+    },
+    "require-dev": {
+        "barryvdh/laravel-ide-helper": "^2.2"
+    },
+    "require": {
+        "illuminate/framework": "5.2.*"
+    }
+}
